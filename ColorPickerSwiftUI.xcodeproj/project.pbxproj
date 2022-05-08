@@ -11,6 +11,10 @@
 		A55BAE982827EA0F002F9986 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAE972827EA0F002F9986 /* ContentView.swift */; };
 		A55BAE9A2827EA11002F9986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55BAE992827EA11002F9986 /* Assets.xcassets */; };
 		A55BAE9D2827EA11002F9986 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55BAE9C2827EA11002F9986 /* Preview Assets.xcassets */; };
+		A55BAEA42827EA4C002F9986 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAEA32827EA4C002F9986 /* SliderView.swift */; };
+		A55BAEA62827F395002F9986 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAEA52827F395002F9986 /* TextView.swift */; };
+		A55BAEA82827F3A7002F9986 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAEA72827F3A7002F9986 /* TextFieldView.swift */; };
+		A55BAEAA2827F47D002F9986 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAEA92827F47D002F9986 /* ColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		A55BAE972827EA0F002F9986 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A55BAE992827EA11002F9986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A55BAE9C2827EA11002F9986 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A55BAEA32827EA4C002F9986 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		A55BAEA52827F395002F9986 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		A55BAEA72827F3A7002F9986 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		A55BAEA92827F47D002F9986 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				A55BAE952827EA0F002F9986 /* ColorPickerSwiftUIApp.swift */,
 				A55BAE972827EA0F002F9986 /* ContentView.swift */,
+				A55BAEA32827EA4C002F9986 /* SliderView.swift */,
+				A55BAEA52827F395002F9986 /* TextView.swift */,
+				A55BAEA72827F3A7002F9986 /* TextFieldView.swift */,
+				A55BAEA92827F47D002F9986 /* ColorView.swift */,
 				A55BAE992827EA11002F9986 /* Assets.xcassets */,
 				A55BAE9B2827EA11002F9986 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55BAEAA2827F47D002F9986 /* ColorView.swift in Sources */,
+				A55BAEA82827F3A7002F9986 /* TextFieldView.swift in Sources */,
+				A55BAEA42827EA4C002F9986 /* SliderView.swift in Sources */,
 				A55BAE982827EA0F002F9986 /* ContentView.swift in Sources */,
 				A55BAE962827EA0F002F9986 /* ColorPickerSwiftUIApp.swift in Sources */,
+				A55BAEA62827F395002F9986 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

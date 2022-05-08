@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var redValue: Double = Double.random(in: 0...255)
+    @State private var greenValue: Double = Double.random(in: 0...255)
+    @State private var blueValue: Double = Double.random(in: 0...255)
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            ColorView(red: redValue, green: greenValue, blue: blueValue)
+            SliderView(sliderValue: $redValue, color: .red)
+            SliderView(sliderValue: $greenValue, color: .green)
+            SliderView(sliderValue: $blueValue, color: .blue)
+            Spacer()
+        }
+        .padding()
     }
 }
 
